@@ -1,6 +1,6 @@
 <?php
 require('vendor/autoload.php');
 
-use Phpubot\Cli\PhpubotCLI;
+use Phpubot\Cli\PhpubotCli;
 
-new PhpubotCLI();
+new PhpubotCli();
