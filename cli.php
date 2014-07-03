@@ -1,7 +1,7 @@
 <?php
 require('vendor/autoload.php');
 
-use Panda\Cli\PandaCLI;
+use Phpubot\Cli\PhpubotCLI;
 
-$pandacli = new PandaCLI();
+$pandacli = new PhpubotCLI();
 //echo $pandacli;
