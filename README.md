@@ -14,4 +14,12 @@ Installation
 
 3 - Create a new directory inside your hubot application named `phpubot`
 
-4 - `cd phpubot && git clone
+4 - `cd phpubot && git clone git@github.com:alairock/phpubot.git .`
+
+5 - `composer install`
+
+Configuration
+=============
+
+- Add Mapping
+- Add file, mimic sample script
