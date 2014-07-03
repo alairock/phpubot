@@ -1,0 +1,21 @@
+{
+    "name": "alairock/phpubot",
+    "description": "PHP CLI which runs tasks for hubot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skyler Lewis",
+            "email": "sblnog@gmail.com"
+        }
+    ],
+    "require": {
+	 "ulrichsg/getopt-php": "2.1.*",
+	 "curl/curl": "1.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpubot\\Cli\\": "src/Phpubot/Cli/"
+        },
+        "classmap": ["src/Phpubot/Cli/"]
+    }
+}
